@@ -1,0 +1,26 @@
+Question # 2
+=============
+
+  Make a simple ROP chain on x86-64.
+  Call open_flag(), read_flag(), show_flag() with appropriate arguments.
+  
+  The target binary is:
+  
+      CANARY    : disabled
+      FORTIFY   : disabled
+      NX        : ENABLED
+      PIE       : disabled
+      RELRO     : Partial
+  
+  * Ref
+    - http://crypto.stanford.edu/~blynn/rop/
+
+- target    : target
+- type      : local
+- arch      : 64
+- level     : 15
+- points    : 20
+- uid       : 27015
+- release   : 11-14-2017 00:00:00
+- deadline  : 11-21-2017 00:00:00
+- hashval   : D04DCE38
